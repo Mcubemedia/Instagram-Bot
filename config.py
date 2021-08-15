@@ -44,7 +44,7 @@ Just send any instagram username.
 For Example:
 <code>samantharuthprabhuoffl</code>
 <code>subin_p_s_</code>
-<code>_chill_manh_7</code>
+<code>mcubemediaofficial</code>
 
 
 2. From URL:
@@ -99,7 +99,8 @@ Example: <code>/followers samantharuthprabhuoffl</code>
 
 This is a bot of [{}](www.instagram.com/{}) to manage his Instagram account. 
 I can only work for my master [{}](tg://user?id={}).
-But you can Deploy the same bot for your use from the below source code.
+
+.
 
 Use /help to know What I can Do?</b>
 """

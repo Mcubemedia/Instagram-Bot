@@ -192,12 +192,12 @@ async def upload(m, bot, chat_id, dir):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-					InlineKeyboardButton("Main Channel", url='https://t.me/mcubemediaofficial'),
-					InlineKeyboardButton("Main Group", url="https://t.me/mcubemediasupport")
+					InlineKeyboardButton("⚡️𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url='https://t.me/mcubemediaofficial'),
+					InlineKeyboardButton("👥𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/mcubemediasupport")
 				],
 				[
 					InlineKeyboardButton("🔗Source Code", url="https://t.me/smplmcube/7"),
-                    InlineKeyboardButton("Developer", url="https://t.me/subinps")
+                    InlineKeyboardButton("✏ 𝙴𝚍𝚒𝚝𝚘𝚛", url="https://t.me/rashmikamandannaofficial1")
 				]
 			]
 			)

@@ -122,31 +122,6 @@ async def account(bot, message):
 
 @Client.on_message(filters.text & filters.private & filters.incoming)
 async def _insta_post_batch(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, int(OWNER)),
-			disable_web_page_preview=True,
-			reply_markup=InlineKeyboardMarkup(
-				[
-					[
-						InlineKeyboardButton("⚡️𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url='https://t.me/mcubemediaofficial'),
-						InlineKeyboardButton("👥𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/mcubemediasupport"),
-                        
-					],
-                    [
-                        InlineKeyboardButton("🔗Source Code", url="https://t.me/smplmcube/7"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://t.me/smplmcube/7")
-                    ],
-                    [
-                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-                        InlineKeyboardButton("✏ 𝙴𝚍𝚒𝚝𝚘𝚛 ", url="https://t.me/rashmikamandannaofficial1")
-
-                    ]
-					
-				]
-			)
-		)
-        return
     if 1 not in STATUS:
         await message.reply_text("You Must Login First /login ")
         return
@@ -198,6 +173,31 @@ async def _insta_post_batch(bot, message):
         return
 
     else:
+        if str(message.from_user.id) != OWNER:
+            await message.reply_text(
+                HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, int(OWNER)),
+                disable_web_page_preview=True,
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton("⚡️𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url='https://t.me/mcubemediaofficial'),
+                            InlineKeyboardButton("👥𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/mcubemediasupport"),
+                            
+                        ],
+                        [
+                            InlineKeyboardButton("🔗Source Code", url="https://t.me/smplmcube/7"),
+                            InlineKeyboardButton("🧩Deploy Own Bot", url="https://t.me/smplmcube/7")
+                        ],
+                        [
+                            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
+                            InlineKeyboardButton("✏ 𝙴𝚍𝚒𝚝𝚘𝚛 ", url="https://t.me/rashmikamandannaofficial1")
+
+                        ]
+                        
+                    ]
+                )
+            )
+            return
         await m.edit(f"Fetching details for <code>@{username}</code>")
         try:
             profile = Profile.from_username(insta.context, username)

@@ -97,8 +97,11 @@ Example: <code>/followers samantharuthprabhuoffl</code>
     HOME_TEXT = """
 <b>Helo, [{}](tg://user?id={})
 
+You can Download Instagram Public Posts
+This Bot free to use
+
 This is a bot of [{}](www.instagram.com/{}) to manage his Instagram account. 
-I can only work for my master [{}](tg://user?id={}).
+Any Problem Contact my master [{}](tg://user?id={}).
 
 .
 

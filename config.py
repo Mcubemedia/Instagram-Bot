@@ -55,7 +55,7 @@ For Example:
 <code>https://www.instagram.com/p/CL4QbUiLRNW/?utm_medium=copy_link</code>
 
 
-<b>Available Commands and Usage</b>
+<b>Available Commands for my master</b>
 
 /start - Check wheather bot alive.
 /restart - Restart the bot (If you messed up anything use /restart.)
@@ -98,6 +98,10 @@ Example: <code>/followers samantharuthprabhuoffl</code>
 <b>Helo, [{}](tg://user?id={})
 
 You can Download Instagram Public Posts
+Send to me post link to download public posts
+Example :
+https://www.instagram.com/tv/CPlq1sLATLb/?utm_medium=copy_link
+
 This Bot free to use
 
 This is a bot of [{}](www.instagram.com/{}) to manage his Instagram account. 
